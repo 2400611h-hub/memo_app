@@ -9,10 +9,12 @@
 	<body>
 		<div class="container">
 			<h1>メモ</h1>
+			<p id="mode" class="mode-text">新しいメモを作成できます。</p>
 			<label for="input">メモを入力</label>
 			<textarea id="input" placeholder="ここに入力してください..."></textarea>
-			<div>
+			<div class="form-actions">
 				<button id="save">保存</button>
+				<button id="cancel" type="button" hidden>編集をやめる</button>
 			</div>
 			<ul id="list"></ul>
 		</div>
